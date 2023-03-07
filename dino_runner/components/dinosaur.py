@@ -46,11 +46,6 @@ class Dinosaur(Sprite):
          self.dino_run = True
          self.dino_duck = False
       
-         
-             
-
-     
- 
  def run(self):
      self.image = RUNNING[0] if self.step_index < 5 else RUNNING[1]
      self.dino_rect = self.image.get_rect()
